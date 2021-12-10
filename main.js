@@ -37,12 +37,15 @@ const loadFile = (event) => {
             break;
     }
 
+    // load to server
     const formFile = document.getElementById('formdata');
     const formattedFormData = new FormData(formFile); 
     console.log(formattedFormData);
     loadFileServer(formattedFormData);
 };
 
+
+// load to server function
 const loadFileServer = async(formattedFormData) => {
 
     const response = await fetch('upload.php',{

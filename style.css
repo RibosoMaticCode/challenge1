@@ -1,0 +1,60 @@
+/* variables */
+:root{
+    --color1: #1B1742;
+    --color2: #0A0919;
+    --color3: #5259D7;
+    --color4: #36B9CC;
+    --color5: #584DDA;
+    --color6: #468BE8;
+    --color7: #CE7B83;
+    --color8: #FF8080;
+
+}
+
+/* main */
+body {
+    background-color: var(--color2);
+}
+.card {
+    border: 1px solid var(--color1);
+    background-color: var(--color1);
+}
+
+/* section media */
+.content-media .media-video,
+.content-media .media-audio {
+    width: 100%;
+}
+.content-media .media-show{
+    display: block;
+}
+.content-media .media-upload-button{
+    text-align: right;
+    height: 40px;
+}
+.content-media .media-upload-button .file-upload{
+    visibility: hidden;
+}
+
+/* buttons */
+
+
+/* component */
+.component {
+    border: 1px solid var(--color4);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: var(--color4);
+}
+.component-scroll-images{
+    overflow-x:scroll;
+    white-space:nowrap;
+    border:2px solid var(--color1)
+}
+.component-scroll-images .image{
+    display: inline-block;
+    max-height: 180px;
+    width: auto;
+}
+
